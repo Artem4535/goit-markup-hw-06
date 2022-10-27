@@ -451,6 +451,9 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
+.content-link {
+  position: relative;
+}
 .slider {
   background-color: var(
     --section-background-color
@@ -767,7 +770,7 @@ footer {
   margin-right: 70px;
 }
 .footer-container {
-  align-items: center;
+  align-items: baseline;
   display: flex;
 }
 .soc-ocons-footer {
@@ -899,6 +902,7 @@ footer {
   transition: opacity 250ms
       cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .is-hidden {
@@ -914,6 +918,7 @@ footer {
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px;
 
   min-width: 528px;
   min-height: 581px;
@@ -947,15 +952,7 @@ footer {
   padding: 0;
 }
 
-.modal-form-container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 41px;
-  padding-right: 39px;
-}
-
 .form-title {
-  padding-top: 40px;
   display: block;
   text-align: center;
   margin-bottom: 12px;
@@ -1019,6 +1016,9 @@ footer {
   margin-bottom: 30px;
   padding-left: 51px;
   padding-right: 51px;
+}
+.form-textarea {
+  width: 100%;
 }
 
 .form-textarea::placeholder {
