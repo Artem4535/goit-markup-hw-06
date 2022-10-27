@@ -963,6 +963,9 @@ footer {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+.modal-list-text {
+  margin-bottom: 10px;
+}
 
 .form-label {
   display: flex;
@@ -971,6 +974,7 @@ footer {
   font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.01em;
+  margin-bottom: 4px;
 
   color: var(--second-text-color);
 }
@@ -996,7 +1000,6 @@ footer {
 .form-wrap {
   position: relative;
   display: flex;
-  margin-bottom: 10px;
 }
 
 .modal-svg-input {
@@ -1064,8 +1067,7 @@ footer {
   height: 120px;
   resize: none;
   padding-left: 16px;
-
-  margin-bottom: 20px;
+  margin-top: 4px;
 }
 .form-textarea:focus {
   border-color: var(--accent-text-color);
@@ -1092,6 +1094,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 
   gap: 9px;
 
