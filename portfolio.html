@@ -533,39 +533,39 @@
             </li>
           </ul>
         </div>
-        <form class="form-footer">
-          <div class="form-container">
+        <div class="form-container">
+          <p class="footer-form-text">
+            Підпишіться на розсилку
+          </p>
+          <form class="form-footer">
             <label
               class="footer-label"
               for="gmail"
-              >Підпишіться на розсилку</label
+            ></label>
+            <input
+              class="footer-input"
+              type="email"
+              name="gmail"
+              id="gmail"
+              placeholder="E-mail"
+            />
+            <button
+              type="submit"
+              class="footer-btn"
             >
-            <div class="secondary-form-container">
-              <input
-                class="footer-input"
-                type="email"
-                name="gmail"
-                id="gmail"
-                placeholder="E-mail"
-              />
-              <button
-                type="submit"
-                class="footer-btn"
+              Підписатися
+              <svg
+                class="footer-btn-icon"
+                width="24"
+                height="24"
               >
-                Підписатися
-                <svg
-                  class="footer-btn-icon"
-                  width="24"
-                  height="24"
-                >
-                  <use
-                    href="./images/symbol-defs.svg#icon-send"
-                  ></use>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </form>
+                <use
+                  href="./images/symbol-defs.svg#icon-send"
+                ></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
   </body>

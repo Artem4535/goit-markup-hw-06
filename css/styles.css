@@ -999,6 +999,7 @@ footer {
 .form-input {
   height: 40px;
   width: 100%;
+  padding-left: 41px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -1037,6 +1038,9 @@ footer {
 }
 .form-textarea {
   width: 100%;
+  display: block;
+  padding-left: 16px;
+  padding-top: 12px;
 }
 
 .form-textarea::placeholder {
@@ -1051,10 +1055,8 @@ footer {
   color: var(--second-text-color);
 }
 
-.checkbox-input {
-}
 .form-link {
-  color: #2196f3;
+  color: var(--accent-text-color);
   text-decoration: underline;
 }
 .form-link::after {
